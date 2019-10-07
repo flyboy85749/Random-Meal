@@ -18,6 +18,10 @@ h4, h5 {
     font-weight: 800;
 }
 
+.intro {
+    padding: 10px 40px 10px 5px;
+}
+
 p {
     padding: 30px 20px 20px 20px;
 }
@@ -25,4 +29,9 @@ p {
 img {
     box-shadow: 5px 10px 8px 5px #afadad;
     margin: 10px 25px 30px 5px;
+}
+
+footer p {
+    margin: 0 auto;
+    color: black;
 }
