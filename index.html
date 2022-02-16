@@ -21,11 +21,12 @@
                         <div class="columns">
                             <div class="column is-two-thirds">
 
-                                <h1 class="title">
-                                    The Random Meal Generator
+                                <h1 class="title is-1">
+                                    The Super Easy Meal Generator
                                 </h1>
-                                <p class="intro">Take a chance and spin the button of randomness!
-                                Who knows? You may find something you actually like...</p>
+                                <p class="subtitle">Take a chance and click the button of randomness!
+                                Who knows? <br> You may find something you actually like...</p>
+                                <p class="subtitle">OR, you can enter a main protein name and find a matching recipe.</p>
                             </div>
                             <div class="column is-one-third">
                                 <h2 class="title">
@@ -37,6 +38,10 @@
                                 </h3>
                                 <!-- get meal button will return API info -->
                                 <a id="get_meal" class="button is-info">Get Meal 🍔</a>
+                                <br><br>
+                                <h3 class="subtitle">OR search by main protein</h3>
+                                <input type="text" name="search" id="search">
+                                <a id="search_meal" class="button is-info" onClick={search}>Search by name</a>
                             </div>
                         </div>
                     </div>

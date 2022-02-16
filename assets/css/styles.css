@@ -4,18 +4,26 @@ body {
     padding: 20px;
 }
 
+.hero-body {
+    background-color:brown;
+}
+
+
 .meal-type {
     width: 100%;
     border-right: 1px solid gray;
-    
     margin-top: 20px;
     padding: 20px 10px 20px 10px;
-    text-align: middle;
+    text-align: center;
 }
 
 h4, h5 {
     text-align: justify;
     font-weight: 800;
+}
+
+input {
+    margin: 5px 10px;
 }
 
 .intro {
@@ -28,10 +36,9 @@ p {
 
 img {
     box-shadow: 5px 10px 8px 5px #afadad;
-    margin: 10px 25px 30px 5px;
+    margin: 10px 25px 30px 170px;
 }
 
-footer p {
-    margin: 0 auto;
-    color: black;
+.footer {
+    text-align: center;
 }
